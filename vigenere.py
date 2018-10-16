@@ -7,7 +7,7 @@ import sys
 import string
 
 
-def encrypt(text, keyword):
+def encrypt(text, keyword="a"):
     from helpers import alphabet_position, rotate_character
     key = []
     for k in keyword:
@@ -15,7 +15,7 @@ def encrypt(text, keyword):
 
     secret = ""
     keypos = 0
-
+    print(key)
     for char in text:
         if char.isalpha():
             secret += rotate_character(char, key[keypos % len(key)])
