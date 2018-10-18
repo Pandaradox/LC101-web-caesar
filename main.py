@@ -35,20 +35,20 @@ form = """
                         margin: 0 auto;
                         width: 540px;
                         border-radius: 10px;
-                        color: #35358f;
+                        color: #5555df;
                     }}
                     select {{
-                        color: #35358f;
+                        color: #5555df;
                     }}
                     textarea {{
-                        background-color: #35358f;
+                        background-color: #5555df;
                         color: black;
                         margin: 10px 0;
                         width: 540px;
                         height: 120px;
                     }}
                     input {{
-                        color: #35358f;
+                        color: #5555df;
                         font: 20px;
                     }}
                 </style>
@@ -62,7 +62,7 @@ form = """
                 {encryption}
                 <br>
                 <textarea name="text" rows="4" cols="20" placeholder="Message to Encrypt" required>{text}</textarea>
-                <input background-color = "#055f05" color: "black" type="submit" value="Encrypt">
+                <input background-color = "#5555df" color: "black" type="submit" value="Encrypt" autofocus>
             </body>
         </html>
 """
