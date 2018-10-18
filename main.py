@@ -63,6 +63,7 @@ form = """
                 <br>
                 <textarea name="text" rows="4" cols="20" placeholder="Message to Encrypt" required>{text}</textarea>
                 <input background-color = "#5555df" color: "black" type="submit" value="Encrypt" autofocus>
+                </form>
             </body>
         </html>
 """
